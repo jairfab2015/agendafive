@@ -4,7 +4,8 @@
 Function main()
    Local aEstrutura:={} // Inicialização Para Vetor ou Matriz
 	
-	SetGetColorFocus( CLR_SKY )      // Padrão para Cor do Fundo das Caixas de Texto , Ou Get
+	SetGetColorFocus( CLR_SKY )
+     // Padrão para Cor do Fundo das Caixas de Texto , Ou Get
 	
    SET DELE ON  // Ativa o Delete dos Arquivos
    SET CENT ON  // Ativa o Seculo com 4 Digitos
