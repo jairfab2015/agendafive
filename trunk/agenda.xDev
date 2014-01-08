@@ -1,12 +1,12 @@
 <!--
 ################################################
 # xDevStudio Project - xdev@kssoftware.com.br  #
-# Created @ 03/07/2013 15:07:23                #
+# Created @ 08/01/2014 17:41:50                #
 #                                              #
 ### Standard xDev Config - Layout v1.5 #########
 -->
 <project>
-   <option compiler="471317">
+   <option compiler="472202">
    <option outputname="agenda">
    <option targettype="EXE">
    <option outputpath="">
@@ -29,13 +29,22 @@
    <option taskgroupfinalize="">
 
    <compilerparam name="FiveWin32.xCompiler">
-      <option presetsname="471317">
+      <option presetsname="471317,472202">
       <option rdd2="Sim">
    </compilerparam>
 
    <unit filename="C:\xhb121\lib\pcrepos.lib" compile="Sim">
    <unit filename="C:\bcc582\Lib\PSDK\psapi.lib" compile="Sim">
    <unit filename="agenda.prg" compile="Sim">
-   <unit filename="tip.lib" compile="Sim">
    <unit filename="agend1.res" compile="Sim">
+   <unit filename="C:\xhb121\lib\ct.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\ctmt.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\png.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\tip.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\codepage.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\pp.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\hbzip.lib" compile="Sim">
+   <unit filename="C:\xhb121\lib\zlib.lib" compile="Sim">
+   <unit filename="base64.c" compile="Sim">
+   <unit filename="base64.h" compile="Sim">
 </project>
